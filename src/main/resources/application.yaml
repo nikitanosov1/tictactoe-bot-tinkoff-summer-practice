@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+session-uuid: ${SESSION_UUID}
+mediator:
+  host-address: http://mediator:8080/
+  bot-registration-path-pattern: ${mediator.host-address}sessions/%s/registration
